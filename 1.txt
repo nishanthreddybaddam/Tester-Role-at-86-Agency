@@ -1,0 +1,51 @@
+Section 1: Multiple Choice Questions
+1. What is the main purpose of QA automation?
+- A) To replace manual testing completely.
+- B) To perform repetitive tasks efficiently.
+- C) To increase the number of bugs in the software.
+- D) To eliminate the need for developers.
+
+B) To perform repetitive tasks efficiently.
+The main purpose of QA automation is to efficiently handle repetitive testing tasks, reducing manual effort and increasing testing coverage and accuracy.
+
+
+2. Which of the following is NOT a popular test automation framework?
+- A) Selenium
+- B) Appium
+- C) JUnit
+- D) Django
+
+D) Django
+Django is a web framework for building web applications, not a test automation framework. Selenium, Appium, and JUnit are all popular test automation frameworks.
+
+
+3. Which language is commonly used for writing Selenium WebDriver tests?
+- A) Python
+- B) Ruby
+- C) JavaScript
+- D) All of the above
+
+D) All of the above
+Selenium WebDriver tests can be written in various languages, including Python, Ruby, and JavaScript, among others.
+
+
+4. In Selenium, what method is used to find an element by its ID?
+- A) `findElement(By.name("id"))`
+- B) `findElement(By.xpath("//id"))`
+- C) `findElement(By.id("id"))`
+- D) `findElement(By.class("id"))`
+
+C) findElement(By.id("id"))
+The method findElement(By.id("id")) is used to locate an element by its ID in Selenium.
+
+
+
+5. Which of the following is a best practice in test automation?
+- A) Hard-coding test data
+- B) Writing tests that depend on each other
+- C) Regularly updating and refactoring test scripts
+- D) Ignoring test failures in the CI/CD pipeline
+
+C) Regularly updating and refactoring test scripts
+Regularly updating and refactoring test scripts ensures that the test suite remains maintainable and effective as the application evolves.
+

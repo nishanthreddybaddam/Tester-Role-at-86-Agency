@@ -1,0 +1,38 @@
+Section 2: Short Answer Questions
+
+1.Explain the difference between a bug and a defect.
+
+Ans: Bug: A bug is an error, flaw, or fault in the software that causes it to produce an incorrect or unexpected result, or to behave in unintended ways. Bugs are typically found during the testing phase.
+Defect: A defect is a deviation from the expected behavior or requirement. It can be a broader term that encompasses bugs, but it also includes issues like missing features or incorrect implementations that were identified after the software was delivered or during reviews.
+In summary, a bug is a type of defect, specifically an issue found during testing that causes incorrect behavior. A defect is any issue that deviates from the requirements or expected behavior.
+
+2.Describe the Page Object Model (POM) in test automation. Why is it useful?
+
+Ans: The Page Object Model (POM) is a design pattern in test automation that creates an object repository for web UI elements. It encapsulates the page elements and the interactions with these elements within separate classes (page objects). Each page object represents a page in the web application.
+Why is it useful?
+Maintainability: Changes in the UI only need to be updated in one place, the page object class, rather than in multiple test scripts.
+Reusability: Common interactions and page elements can be reused across multiple tests, reducing redundancy.
+Readability: Test scripts become more readable and maintainable, as the logic for interacting with the page is abstracted away from the test code.
+Separation of Concerns: POM promotes a clean separation between test code and page structure, making it easier to manage and scale.
+
+3.What is a flaky test and how would you handle it?
+
+Ans: A flaky test is a test that produces inconsistent results; it sometimes passes and sometimes fails without any changes to the code being tested. Flaky tests undermine
+How to handle flaky tests:
+Investigate and Identify the Cause: Determine whether the flakiness is due to environmental issues, timing issues, data dependencies, or other external factors.
+Stabilize the Test Environment: Ensure a consistent test environment to reduce variability.
+Use Explicit Waits: Replace implicit waits with explicit waits to handle timing issues more precisely.
+Isolate Tests: Ensure tests do not depend on each other or shared states that can lead to inconsistent behavior.
+Review and Refactor: Regularly review and refactor flaky tests to improve their stability.
+
+4.How would you prioritize test cases for automation?
+
+Ans: To prioritize test cases for automation, consider the following criteria:
+Frequency of Use: Automate test cases for features that are frequently used or critical to the application's functionality.
+Repetitiveness: Automate tests that need to be run frequently and involve repetitive tasks, such as regression tests.
+Complexity: Automate tests that are complex and prone to human error when performed manually.
+High Risk: Automate test cases for areas of the application that are high risk or have a history of bugs.
+Feasibility: Ensure the test cases are feasible to automate given the current tools and resources.
+Maintenance Cost: Consider the effort required to maintain the automated tests over time and prioritize tests that provide high value with manageable maintenance costs.
+
+
